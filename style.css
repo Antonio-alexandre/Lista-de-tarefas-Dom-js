@@ -1,0 +1,200 @@
+body {
+    background-color: #19b6ff
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding-left: 7rem;
+    padding-top: 10rem;
+}
+
+.card {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none
+}
+
+
+.px-3 {
+    padding-left: 1rem !important
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #79d1fa;
+    background-clip: border-box;
+    border: 1px solid #000000;
+    border-radius: 90px
+}
+
+
+.px-3 {
+    padding-right: 1rem !important
+}
+
+.card .card-body {
+    padding: 1.25rem 1.75rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.card .card-title {
+    color: #000000;
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-size: 0.875rem;
+    font-weight: 500
+}
+
+.add-items {
+    margin-bottom: 1.5rem;
+    overflow: hidden
+}
+
+.d-flex {
+    display: flex !important
+}
+
+.add-items input[type="text"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    background: transparent
+}
+
+.form-control {
+    border: 1px solid #f3f3f3;
+    font-weight: 400;
+    font-size: 0.875rem
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.375rem;
+    font-size: 1rem;
+    line-height: 1;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+}
+
+.add-items .btn {
+    margin-left: .5rem
+}
+
+.btn {
+    font-size: 0.875rem;
+    line-height: 1;
+    font-weight: 400;
+    padding: .7rem 1.5rem;
+    border-radius: 0.1275rem
+}
+
+.list-wrapper {
+    height: 100%;
+    max-height: 100%
+}
+
+.add-items {
+    margin-bottom: 1.5rem;
+    overflow: hidden
+}
+
+.add-items input[type="text"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    background: transparent
+}
+
+.add-items .btn {
+    margin-left: .5rem
+}
+
+.list-wrapper {
+    height: 100%;
+    max-height: 100%
+}
+
+.list-wrapper ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0
+}
+
+.list-wrapper ul li {
+    font-size: .9375rem;
+    padding: .4rem 0;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.list-wrapper ul li:first-child {
+    border-bottom: none
+}
+
+.form-check-label {
+    margin-bottom: 0
+}
+
+.list-wrapper ul li {
+    font-size: .9375rem;
+    padding: .4rem 0;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.list-wrapper ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse !important
+}
+
+.d-flex,
+.list-wrapper ul li {
+    display: flex !important
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 45px;
+  padding: 3px 4px 3px 4px; 
+}
+
+.close:hover {
+  color: red;
+}
+.lista_atividade{
+    margin-left:2%;
+}
+.tarefa_concluida{
+    text-decoration: line-through;
+}

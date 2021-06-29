@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulário de Atividades</title>
+    <meta charset="utf-8">
+
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+</head>
+
+<body>
+    <div class="page-content page-container padding" id="page-content">
+        <div class="row container d-flex justify-content-center">
+            <div class="col-md-12">
+                <div class="card px-3">
+                    <div class="card-body">
+                        <h4 class="card-title">Lista de Atividades</h4>
+                        <form class="add-items d-flex" action="">
+                            <input type="text" class="form-control todo-list-input"
+                                placeholder="O que você precisa fazer hoje?" data-form-input>
+                            <button class="dd btn btn-primary font-weight-bold todo-list-add-btn" data-form-button> +
+                            </button>
+                        </form>
+                        <div class="list-wrapper">
+                            <ul class="d-flex flex-column-reverse todo-list" data-task>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="listaDeTarefas.js"></script>
+</body>
+
+</html>
